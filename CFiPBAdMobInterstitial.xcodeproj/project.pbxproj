@@ -1,0 +1,608 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		22B24C98206CD780007D4E90 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 22B24C97206CD780007D4E90 /* AppDelegate.m */; };
+		22B24C9B206CD780007D4E90 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 22B24C9A206CD780007D4E90 /* ViewController.m */; };
+		22B24C9E206CD780007D4E90 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22B24C9C206CD780007D4E90 /* Main.storyboard */; };
+		22B24CA1206CD780007D4E90 /* CFiPBAdMobInterstitial.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 22B24C9F206CD780007D4E90 /* CFiPBAdMobInterstitial.xcdatamodeld */; };
+		22B24CA3206CD780007D4E90 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 22B24CA2206CD780007D4E90 /* Assets.xcassets */; };
+		22B24CA6206CD780007D4E90 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22B24CA4206CD780007D4E90 /* LaunchScreen.storyboard */; };
+		22B24CA9206CD780007D4E90 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 22B24CA8206CD780007D4E90 /* main.m */; };
+		22B24CB3206CD780007D4E90 /* CFiPBAdMobInterstitialTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 22B24CB2206CD780007D4E90 /* CFiPBAdMobInterstitialTests.m */; };
+		22B24CBE206CD780007D4E90 /* CFiPBAdMobInterstitialUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 22B24CBD206CD780007D4E90 /* CFiPBAdMobInterstitialUITests.m */; };
+		22B24D1A206CDF85007D4E90 /* iMFAD.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22B24D19206CDF85007D4E90 /* iMFAD.framework */; };
+		22B24D1B206CDF85007D4E90 /* iMFAD.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 22B24D19206CDF85007D4E90 /* iMFAD.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		22B24CAF206CD780007D4E90 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 22B24C8B206CD780007D4E90 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 22B24C92206CD780007D4E90;
+			remoteInfo = CFiPBAdMobInterstitial;
+		};
+		22B24CBA206CD780007D4E90 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 22B24C8B206CD780007D4E90 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 22B24C92206CD780007D4E90;
+			remoteInfo = CFiPBAdMobInterstitial;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		22B24D1C206CDF85007D4E90 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				22B24D1B206CDF85007D4E90 /* iMFAD.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		22B24C93206CD780007D4E90 /* CFiPBAdMobInterstitial.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CFiPBAdMobInterstitial.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		22B24C96206CD780007D4E90 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		22B24C97206CD780007D4E90 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		22B24C99206CD780007D4E90 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		22B24C9A206CD780007D4E90 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		22B24C9D206CD780007D4E90 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		22B24CA0206CD780007D4E90 /* CFiPBAdMobInterstitial.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CFiPBAdMobInterstitial.xcdatamodel; sourceTree = "<group>"; };
+		22B24CA2206CD780007D4E90 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		22B24CA5206CD780007D4E90 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		22B24CA7206CD780007D4E90 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		22B24CA8206CD780007D4E90 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		22B24CAE206CD780007D4E90 /* CFiPBAdMobInterstitialTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CFiPBAdMobInterstitialTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		22B24CB2206CD780007D4E90 /* CFiPBAdMobInterstitialTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CFiPBAdMobInterstitialTests.m; sourceTree = "<group>"; };
+		22B24CB4206CD780007D4E90 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		22B24CB9206CD780007D4E90 /* CFiPBAdMobInterstitialUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CFiPBAdMobInterstitialUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		22B24CBD206CD780007D4E90 /* CFiPBAdMobInterstitialUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CFiPBAdMobInterstitialUITests.m; sourceTree = "<group>"; };
+		22B24CBF206CD780007D4E90 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		22B24D19206CDF85007D4E90 /* iMFAD.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = iMFAD.framework; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		22B24C90206CD780007D4E90 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22B24D1A206CDF85007D4E90 /* iMFAD.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22B24CAB206CD780007D4E90 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22B24CB6206CD780007D4E90 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		22B24C8A206CD780007D4E90 = {
+			isa = PBXGroup;
+			children = (
+				22B24D19206CDF85007D4E90 /* iMFAD.framework */,
+				22B24C95206CD780007D4E90 /* CFiPBAdMobInterstitial */,
+				22B24CB1206CD780007D4E90 /* CFiPBAdMobInterstitialTests */,
+				22B24CBC206CD780007D4E90 /* CFiPBAdMobInterstitialUITests */,
+				22B24C94206CD780007D4E90 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		22B24C94206CD780007D4E90 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				22B24C93206CD780007D4E90 /* CFiPBAdMobInterstitial.app */,
+				22B24CAE206CD780007D4E90 /* CFiPBAdMobInterstitialTests.xctest */,
+				22B24CB9206CD780007D4E90 /* CFiPBAdMobInterstitialUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		22B24C95206CD780007D4E90 /* CFiPBAdMobInterstitial */ = {
+			isa = PBXGroup;
+			children = (
+				22B24C96206CD780007D4E90 /* AppDelegate.h */,
+				22B24C97206CD780007D4E90 /* AppDelegate.m */,
+				22B24C99206CD780007D4E90 /* ViewController.h */,
+				22B24C9A206CD780007D4E90 /* ViewController.m */,
+				22B24C9C206CD780007D4E90 /* Main.storyboard */,
+				22B24CA2206CD780007D4E90 /* Assets.xcassets */,
+				22B24CA4206CD780007D4E90 /* LaunchScreen.storyboard */,
+				22B24CA7206CD780007D4E90 /* Info.plist */,
+				22B24CA8206CD780007D4E90 /* main.m */,
+				22B24C9F206CD780007D4E90 /* CFiPBAdMobInterstitial.xcdatamodeld */,
+			);
+			path = CFiPBAdMobInterstitial;
+			sourceTree = "<group>";
+		};
+		22B24CB1206CD780007D4E90 /* CFiPBAdMobInterstitialTests */ = {
+			isa = PBXGroup;
+			children = (
+				22B24CB2206CD780007D4E90 /* CFiPBAdMobInterstitialTests.m */,
+				22B24CB4206CD780007D4E90 /* Info.plist */,
+			);
+			path = CFiPBAdMobInterstitialTests;
+			sourceTree = "<group>";
+		};
+		22B24CBC206CD780007D4E90 /* CFiPBAdMobInterstitialUITests */ = {
+			isa = PBXGroup;
+			children = (
+				22B24CBD206CD780007D4E90 /* CFiPBAdMobInterstitialUITests.m */,
+				22B24CBF206CD780007D4E90 /* Info.plist */,
+			);
+			path = CFiPBAdMobInterstitialUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		22B24C92206CD780007D4E90 /* CFiPBAdMobInterstitial */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 22B24CC2206CD780007D4E90 /* Build configuration list for PBXNativeTarget "CFiPBAdMobInterstitial" */;
+			buildPhases = (
+				22B24C8F206CD780007D4E90 /* Sources */,
+				22B24C90206CD780007D4E90 /* Frameworks */,
+				22B24C91206CD780007D4E90 /* Resources */,
+				22B24D1C206CDF85007D4E90 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CFiPBAdMobInterstitial;
+			productName = CFiPBAdMobInterstitial;
+			productReference = 22B24C93206CD780007D4E90 /* CFiPBAdMobInterstitial.app */;
+			productType = "com.apple.product-type.application";
+		};
+		22B24CAD206CD780007D4E90 /* CFiPBAdMobInterstitialTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 22B24CC5206CD780007D4E90 /* Build configuration list for PBXNativeTarget "CFiPBAdMobInterstitialTests" */;
+			buildPhases = (
+				22B24CAA206CD780007D4E90 /* Sources */,
+				22B24CAB206CD780007D4E90 /* Frameworks */,
+				22B24CAC206CD780007D4E90 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				22B24CB0206CD780007D4E90 /* PBXTargetDependency */,
+			);
+			name = CFiPBAdMobInterstitialTests;
+			productName = CFiPBAdMobInterstitialTests;
+			productReference = 22B24CAE206CD780007D4E90 /* CFiPBAdMobInterstitialTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		22B24CB8206CD780007D4E90 /* CFiPBAdMobInterstitialUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 22B24CC8206CD780007D4E90 /* Build configuration list for PBXNativeTarget "CFiPBAdMobInterstitialUITests" */;
+			buildPhases = (
+				22B24CB5206CD780007D4E90 /* Sources */,
+				22B24CB6206CD780007D4E90 /* Frameworks */,
+				22B24CB7206CD780007D4E90 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				22B24CBB206CD780007D4E90 /* PBXTargetDependency */,
+			);
+			name = CFiPBAdMobInterstitialUITests;
+			productName = CFiPBAdMobInterstitialUITests;
+			productReference = 22B24CB9206CD780007D4E90 /* CFiPBAdMobInterstitialUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		22B24C8B206CD780007D4E90 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = cf;
+				TargetAttributes = {
+					22B24C92206CD780007D4E90 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					22B24CAD206CD780007D4E90 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 22B24C92206CD780007D4E90;
+					};
+					22B24CB8206CD780007D4E90 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 22B24C92206CD780007D4E90;
+					};
+				};
+			};
+			buildConfigurationList = 22B24C8E206CD780007D4E90 /* Build configuration list for PBXProject "CFiPBAdMobInterstitial" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 22B24C8A206CD780007D4E90;
+			productRefGroup = 22B24C94206CD780007D4E90 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				22B24C92206CD780007D4E90 /* CFiPBAdMobInterstitial */,
+				22B24CAD206CD780007D4E90 /* CFiPBAdMobInterstitialTests */,
+				22B24CB8206CD780007D4E90 /* CFiPBAdMobInterstitialUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		22B24C91206CD780007D4E90 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22B24CA6206CD780007D4E90 /* LaunchScreen.storyboard in Resources */,
+				22B24CA3206CD780007D4E90 /* Assets.xcassets in Resources */,
+				22B24C9E206CD780007D4E90 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22B24CAC206CD780007D4E90 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22B24CB7206CD780007D4E90 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		22B24C8F206CD780007D4E90 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22B24C9B206CD780007D4E90 /* ViewController.m in Sources */,
+				22B24CA1206CD780007D4E90 /* CFiPBAdMobInterstitial.xcdatamodeld in Sources */,
+				22B24CA9206CD780007D4E90 /* main.m in Sources */,
+				22B24C98206CD780007D4E90 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22B24CAA206CD780007D4E90 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22B24CB3206CD780007D4E90 /* CFiPBAdMobInterstitialTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22B24CB5206CD780007D4E90 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22B24CBE206CD780007D4E90 /* CFiPBAdMobInterstitialUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		22B24CB0206CD780007D4E90 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 22B24C92206CD780007D4E90 /* CFiPBAdMobInterstitial */;
+			targetProxy = 22B24CAF206CD780007D4E90 /* PBXContainerItemProxy */;
+		};
+		22B24CBB206CD780007D4E90 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 22B24C92206CD780007D4E90 /* CFiPBAdMobInterstitial */;
+			targetProxy = 22B24CBA206CD780007D4E90 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		22B24C9C206CD780007D4E90 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				22B24C9D206CD780007D4E90 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		22B24CA4206CD780007D4E90 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				22B24CA5206CD780007D4E90 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		22B24CC0206CD780007D4E90 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		22B24CC1206CD780007D4E90 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		22B24CC3206CD780007D4E90 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8Q3LY5VL5Q;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = CFiPBAdMobInterstitial/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-all_load",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.cf.CFiPBAdMobInterstitial;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		22B24CC4206CD780007D4E90 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8Q3LY5VL5Q;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = CFiPBAdMobInterstitial/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-all_load",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.cf.CFiPBAdMobInterstitial;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		22B24CC6206CD780007D4E90 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CFiPBAdMobInterstitialTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cf.CFiPBAdMobInterstitialTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CFiPBAdMobInterstitial.app/CFiPBAdMobInterstitial";
+			};
+			name = Debug;
+		};
+		22B24CC7206CD780007D4E90 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CFiPBAdMobInterstitialTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cf.CFiPBAdMobInterstitialTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CFiPBAdMobInterstitial.app/CFiPBAdMobInterstitial";
+			};
+			name = Release;
+		};
+		22B24CC9206CD780007D4E90 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CFiPBAdMobInterstitialUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cf.CFiPBAdMobInterstitialUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CFiPBAdMobInterstitial;
+			};
+			name = Debug;
+		};
+		22B24CCA206CD780007D4E90 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CFiPBAdMobInterstitialUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cf.CFiPBAdMobInterstitialUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CFiPBAdMobInterstitial;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		22B24C8E206CD780007D4E90 /* Build configuration list for PBXProject "CFiPBAdMobInterstitial" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22B24CC0206CD780007D4E90 /* Debug */,
+				22B24CC1206CD780007D4E90 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		22B24CC2206CD780007D4E90 /* Build configuration list for PBXNativeTarget "CFiPBAdMobInterstitial" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22B24CC3206CD780007D4E90 /* Debug */,
+				22B24CC4206CD780007D4E90 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		22B24CC5206CD780007D4E90 /* Build configuration list for PBXNativeTarget "CFiPBAdMobInterstitialTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22B24CC6206CD780007D4E90 /* Debug */,
+				22B24CC7206CD780007D4E90 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		22B24CC8206CD780007D4E90 /* Build configuration list for PBXNativeTarget "CFiPBAdMobInterstitialUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22B24CC9206CD780007D4E90 /* Debug */,
+				22B24CCA206CD780007D4E90 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		22B24C9F206CD780007D4E90 /* CFiPBAdMobInterstitial.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				22B24CA0206CD780007D4E90 /* CFiPBAdMobInterstitial.xcdatamodel */,
+			);
+			currentVersion = 22B24CA0206CD780007D4E90 /* CFiPBAdMobInterstitial.xcdatamodel */;
+			path = CFiPBAdMobInterstitial.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 22B24C8B206CD780007D4E90 /* Project object */;
+}
